@@ -1,0 +1,12 @@
+[package]
+name = "p-macro"
+version = "0.1.0"
+authors = ["Elias Gabriel Amaral da Silva <tolkiendili@gmail.com>"]
+license = "MIT"
+description = "p!() is a macro used for printing values while debugging"
+readme = "README.md"
+repository = "https://github.com/dlight/p-macro"
+
+[lib]
+name = "p_macro"
+path = "lib.rs"
