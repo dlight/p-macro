@@ -1,6 +1,6 @@
 [package]
 name = "p-macro"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Elias Gabriel Amaral da Silva <tolkiendili@gmail.com>"]
 license = "MIT"
 description = "p!() is a macro used for printing values while debugging"
