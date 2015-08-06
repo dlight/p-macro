@@ -22,7 +22,7 @@ fn main() {
 }
 ```
 
-It has more complex funcionality as well:
+It does other things too:
 
 ```rust
     p!(10, "a"); // same as println!("{:?} {:?}", 10, "a");
@@ -40,7 +40,7 @@ with an _. This will make the macro use `Display` instead of `Debug`.
 
 ```rust
     p!(_"Test"); // same as println!("{}", "Test");
-	let a = "x"; p!(_ x); // if necessary insert a space
+	let a = "x"; p!(_ a); // if necessary insert a space
 ```
 
 To run the file on the examples folder, type `cargo run --example
